@@ -4,10 +4,10 @@ import { ReactComponent as DividerMobile } from './pattern-divider-mobile.svg';
 export default function Divider() {
   return (
     <div>
-      <div class="justify-center items-center m-8 hidden sm:flex">
+      <div className="justify-center items-center m-8 hidden sm:flex">
         <DividerDesktop />
       </div>
-      <div class="justify-center items-center mt-8 mb-8 flex sm:hidden">
+      <div className="justify-center items-center mt-8 mb-8 flex sm:hidden">
         <DividerMobile />
       </div>
     </div>
