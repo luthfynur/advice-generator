@@ -7,7 +7,7 @@ export default function Divider() {
       <div class="justify-center items-center m-8 hidden sm:flex">
         <DividerDesktop />
       </div>
-      <div class="justify-center items-center m-8 flex sm:hidden">
+      <div class="justify-center items-center mt-8 mb-8 flex sm:hidden">
         <DividerMobile />
       </div>
     </div>
