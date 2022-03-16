@@ -1,5 +1,5 @@
-import { ReactComponent as DividerDesktop } from './pattern-divider-desktop.svg';
-import { ReactComponent as DividerMobile } from './pattern-divider-mobile.svg';
+import { ReactComponent as DividerDesktop } from '../../assets/Images/pattern-divider-desktop.svg';
+import { ReactComponent as DividerMobile } from '../../assets/Images/pattern-divider-mobile.svg';
 
 export default function Divider() {
   return (
