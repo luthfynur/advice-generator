@@ -2,7 +2,7 @@
 
 A simple advice generator app using the [Advice Slip API](https://api.adviceslip.com)\
 Created with react and tailwindcss \
-![screenshot](./screenshot.png)
+![screenshot](./public/screenshot.png)
 
 # Getting Started with Create React App
 
