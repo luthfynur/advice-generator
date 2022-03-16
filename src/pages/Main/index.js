@@ -49,11 +49,11 @@ export default function Main() {
         </p>
         <Divider />
         <div
-          className="absolute -bottom-[20px] sm:left-[253px] left-[140px]"
+          className="absolute -bottom-[22px] sm:left-[253px] left-[140px]"
           onClick={getNewAdvice}
         >
-          <div className="bg-[#52ffa8] w-[50px] h-[50px] rounded-full p-[12.48px] hover:shadow-[-0.2px_2px_10px_10px_rgba(82,255,168,0.4)]">
-            <DiceIcon />
+          <div className="bg-[#52ffa8] w-[50px] h-[50px] rounded-full pt-[18.5px] hover:shadow-[-0.2px_2px_10px_10px_rgba(82,255,168,0.4)]">
+            <DiceIcon refresh={refresh} />
           </div>
         </div>
       </div>
