@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 export default function Main() {
   const [advice, setAdvice] = useState({});
-  const [refresh, setRefresh] = useState(false);
+  const [refresh, setRefresh] = useState(true);
 
   function getAdvice() {
     axios
@@ -27,7 +27,7 @@ export default function Main() {
     setRefresh(true);
     setTimeout(() => {
       getAdvice();
-    }, 300);
+    }, 1000);
   }
 
   useEffect(() => {
@@ -42,7 +42,7 @@ export default function Main() {
         } relative rounded-xl bg-[#323a49] mt-auto mb-auto p-4 w-[320px] sm:w-[550px] sm:p-6`}
       >
         <p className="font-manrope text-[14px] text-[#52ffa8] text-center tracking-[4px] p-8">
-          ADVICE {advice.id}
+          ADVICE #{advice.id}
         </p>
         <p className="font-manrope text-[28px] text-[#cee3e9] text-center">
           "{advice.advice}"
